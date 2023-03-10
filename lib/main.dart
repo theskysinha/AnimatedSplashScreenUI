@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:page_transition/page_transition.dart';
 import 'signupPage.dart';
-import 'figma.dart';
 
 void main() {
   runApp(const MyApp());
