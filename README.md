@@ -1,16 +1,6 @@
-# animation_screen
+# animation_splash_screen
 
-A new Flutter project.
+This is project I created using flutter to incorporate an animated splash screen and an initial page giving options for Login and Signin. I got to learn loads from this and hope that you like my work. Here is a demo of how it all looks!
 
-## Getting Started
+https://user-images.githubusercontent.com/66449020/224344432-21827b7c-b3cb-489a-8f9a-812a9cee9835.mp4
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
