@@ -2,7 +2,7 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:page_transition/page_transition.dart';
-import 'signupPage.dart';
+import 'signup_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,20 +30,12 @@ class SplashScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
         splash: Lottie.asset('assets/splash_screen.json'),
-
-        // Column(
-        //   children: [
-               ///TODO Add your image under assets folder
-        //     Image.asset('assets/logo_icon.png'),
-        //     const Text('Cake app', style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold, color: Colors.white),)
-        //   ],
-        // ),
         backgroundColor: Colors.black,
         nextScreen: InitialScreen(),
       splashIconSize: 250,
       duration: 1900,
       splashTransition: SplashTransition.fadeTransition,
-      pageTransitionType: PageTransitionType.bottomToTop,
+      pageTransitionType: PageTransitionType.fade,
       animationDuration: const Duration(seconds: 1),
     );
   }
